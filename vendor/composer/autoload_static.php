@@ -7,14 +7,6 @@ namespace Composer\Autoload;
 class ComposerStaticInit751f5a40ea305847b3742e6c59cb71c4
 {
     public static $prefixLengthsPsr4 = array (
-        'P' => 
-        array (
-            'Psr\\Log\\' => 8,
-        ),
-        'M' => 
-        array (
-            'Monolog\\' => 8,
-        ),
         'C' => 
         array (
             'Composer\\Installers\\' => 20,
@@ -22,14 +14,6 @@ class ComposerStaticInit751f5a40ea305847b3742e6c59cb71c4
     );
 
     public static $prefixDirsPsr4 = array (
-        'Psr\\Log\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
-        ),
-        'Monolog\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
-        ),
         'Composer\\Installers\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
@@ -42,13 +26,6 @@ class ComposerStaticInit751f5a40ea305847b3742e6c59cb71c4
             'johnpbloch\\Composer\\' => 
             array (
                 0 => __DIR__ . '/..' . '/johnpbloch/wordpress-core-installer/src',
-            ),
-        ),
-        'F' => 
-        array (
-            'FancyGuy\\WordPress\\Plugin\\Monolog' => 
-            array (
-                0 => __DIR__ . '/../..' . '/wp-content/plugins/fancyguy-monolog/src',
             ),
         ),
     );
