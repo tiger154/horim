@@ -1,0 +1,12 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,600,700|Julius+Sans+One|Roboto:400,300,500,700italic,300italic|Open+Sans:400,700);
+
+// Bootstrap
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// FontAwsome
+@import "../../node_modules/font-awesome/scss/font-awesome";
+.icon-user {
+  @extend .fa;
+  @extend .fa-user;
+}
