@@ -1,4 +1,4 @@
-# horim
+# Photographer's portfolio theme development
 wordpress project for photographer's portfolio. 
 
 1. Used modern structure
